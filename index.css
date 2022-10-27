@@ -268,13 +268,11 @@ select {
 .large-button:focus::after {
     opacity: 1;
     transform: scale(1.5);
+    margin: 1.5rem clamp(1.5rem, 5vw, 3.5rem);
 }
 
 /* primary-header */
 
-.logo {
-    margin: 1.5rem clamp(1.5rem, 5vw, 3.5rem);
-}
 
 .primary-header {
     justify-content: space-between;
